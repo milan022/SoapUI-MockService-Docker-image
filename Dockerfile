@@ -52,7 +52,7 @@ RUN yum -y install curl && \
 
 USER soapui
 ENV HOME /home/soapui
-ENV SOAPUI_DIR /home/soapui/SoapUI-5.2.1
+ENV SOAPUI_DIR /home/soapui/SoapUI-6.0.0
 ENV SOAPUI_PRJ /home/soapui/soapui-prj
 
 ############################################
